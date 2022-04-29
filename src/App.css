@@ -1,11 +1,12 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +37,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  background: #f8f9fa !important;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;;
+}
+.row,.col1,.col2{
+  border:1px solid red;
+}
+img{
+  border:1px solid green;
+  margin-left: 80px;
+}
+.col2{
+  /* margin-left: 300px; */
+
+}
+/* h1{
+  border:1px solid green;
+  margin-top: 300px; 
+} */
+
