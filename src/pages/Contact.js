@@ -7,7 +7,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const Contact = () => {
   return (
-    <div class="contact">
+    <div class="contact" id="contact_section">
         <Row>
             <h2 style={{textAlign:"center"}}>Contact Me</h2>
         </Row>

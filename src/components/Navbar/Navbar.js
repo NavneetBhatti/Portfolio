@@ -2,15 +2,23 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { MenuList } from "./MenuList";
 import "./Navbar.css";
+// import Projects from "../pages/Projects";
+import { HashLink as Link } from 'react-router-hash-link'
+
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
   const menuList = MenuList.map(({ url, title }, index) => {
     return (
       <li key={index}>
-        <NavLink exact to={url} activeClassName="active">
+        {/* <NavLink exact to={url} activeClassName="active">
           {title}
-        </NavLink>
+        </NavLink> */}
+        <Link to={url}>
+            {title}
+
+        </Link>
+        
       </li>
     );
   });

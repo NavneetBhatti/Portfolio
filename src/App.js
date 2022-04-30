@@ -6,6 +6,8 @@ import Header from "./pages/Header";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./components/ScrollToTop";
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,6 +18,8 @@ function App() {
   return (
     <div className="App">
         <Router>
+        <ScrollToTop />
+
         <Navbar />
         <Header />
         <About />

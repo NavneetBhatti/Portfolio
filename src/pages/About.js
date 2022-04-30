@@ -5,7 +5,7 @@ import "../App.css";
 
 const About = () => {
   return (
-    <div>
+    <div id="about_section">
         <Row className='row2 mt-5'>
             <h1 style={{textAlign:"center"}}>About Me</h1>
         </Row>   

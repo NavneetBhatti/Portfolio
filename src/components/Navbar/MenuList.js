@@ -1,20 +1,24 @@
+
+
 export const MenuList = [
     {
       title: "Home",
-      url: "/home",
+      url: "/",
+
     },
     {
       title: "About",
-      url: "/about",
+      url: "#about_section",
     },
     
     {
       title: "Projects",
-      url: "/recording",
+      url: "#projects_section",
+
     },
     {
       title: "Contact",
-      url: "/tests",
+      url: "#contact_section",
     },
   
   ];
