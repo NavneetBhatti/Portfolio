@@ -62,14 +62,15 @@ nav {
     align-items: center;
   }
   
-  .menu-list li:last-child a {
+  /* .menu-list li:last-child a {
     font-weight: bold;
     padding: 5px 10px;
-    /* background-color: #01aacd; */
     transition: all 0.5s ease-in-out;
     margin-left: 20px;
     border-radius: 2px;
-  }
+    font-weight: 900;
+
+  } */
   
   .menu-list li a {
     text-decoration: none;
@@ -77,15 +78,17 @@ nav {
     font-weight: bold;
     padding: 5px 10px;
     margin-left: 20px;
-    
+    font-weight: 900;
   }
   
-  .menu-list li a:hover,
-  .menu-list li a.active {
-    /* background-color: #fff; */
+  .menu-list li a:hover
+  /* .menu-list li a.active  */
+  {
+    /* background-color: green; */
     border-radius: 2px;
-    color: #000;
+    color:green;
     transition: all 0.5s ease-in-out;
+
   }
   
   @media screen and (max-width: 800px) {

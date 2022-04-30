@@ -3,6 +3,9 @@ import './App.css';
 
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./pages/Header";
+import Projects from "./pages/Projects";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,7 +18,9 @@ function App() {
         <Router>
         <Navbar />
         <Header />
-      
+        <About />
+        <Projects id="projects_section"/>
+        <Contact />
          {/* <Footer/> */}
        </Router>
 
