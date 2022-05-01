@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaAngleDoubleUp } from "react-icons/fa";
+import { FaAngleDoubleUp,FaPhoneAlt  } from "react-icons/fa";
 
 const ScrollToTop = () => {
   const [showScrollTopButton, setShowScrollTopButton] = useState(false);
@@ -25,13 +25,15 @@ const ScrollToTop = () => {
       {showScrollTopButton && (
         <FaAngleDoubleUp
           className="top-btn-position top-btn-style"
-          onClick={scrollTop}
+          onClick={scrollTop}      
         />
+        
     //     <button
     //     className="top-btn-position top-btn-style"
     //     onClick={scrollTop}
     //   >top</button>
       )}
+
     </div>
   );
 };

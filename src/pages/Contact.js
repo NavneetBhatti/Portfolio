@@ -1,26 +1,34 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
+import { FaEnvelope, FaPhoneAlt ,FaLinkedinIn,FaGithub } from "react-icons/fa";
 
 
 
 
 const Contact = () => {
+    const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+      };
+    
   return (
     <div class="contact" id="contact_section">
         <Row>
             <h2 style={{textAlign:"center"}}>Contact Me</h2>
         </Row>
-        <Row className="mt-4">
+        <Row className="mt-4 pt-2">
             <Col>
-                 <h4 style={{textAlign:"center"}} className='pt-2' >navneetbhatti13@gmail.com</h4>
+            <div>
+                <h4 style={{textAlign:"center"}}  > <span><FaEnvelope style={{paddingRight:"8px"}}/></span>navneetbhatti13@gmail.com</h4>
+            </div>
             </Col>
             <Col >
-               <h4 style={{textAlign:"center"}} className='pt-2'> +1(437)-970-9001</h4>
+               <h4 style={{textAlign:"center"}} ><span><FaPhoneAlt style={{paddingRight:"8px"}}/></span> +1(437)-970-9001</h4>
             </Col>
-            <Col>
-                <SocialIcon url="https://www.linkedin.com/in/navneetkaurbhatti/" bgColor='black' fgColor='white'  />
-                <SocialIcon url="https://github.com/NavneetBhatti" bgColor='black' fgColor='white'  />
+            <Col  >
+
+                <FaLinkedinIn  bgColor='black' fgColor='white' onClick={() => openInNewTab('https://www.linkedin.com/in/navneetkaurbhatti/')} style={{ marginRight:"15px"}}  size={30}/>
+                <FaGithub  bgColor='black' fgColor='white' onClick={() => openInNewTab('https://github.com/NavneetBhatti')} size={30}/>
 
             </Col>
         </Row>
