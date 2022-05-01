@@ -25,7 +25,7 @@ function App() {
         <About />
         <Projects id="projects_section"/>
         <Contact />
-         {/* <Footer/> */}
+         {/* <Footer/> ...*/}
        </Router>
 
 

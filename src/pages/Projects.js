@@ -81,7 +81,7 @@ const Projects = () => {
             </Col>
             <Col className='col4 p-4 mt-4'>
                 <h3>QuestionAnswer</h3>
-                 <p>This a website where user can ask questions related to Programming languages</p>
+                 <p>This a website where user can ask questions related to Programming languages. </p>
                  <h5>Technologies included: </h5>
                  Asp.net<br/>
                  <button type="button" class="btn btn-success" onClick={() => openInNewTab('https://google.com')}>Website</button>
