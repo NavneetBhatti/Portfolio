@@ -19,11 +19,7 @@ const Projects = () => {
         <Col className="p-4">
           <img
             src={require("../components/images/car.png")}
-            style={{
-              width: "500px",
-              height: "300px",
-              border: "1px solid black",
-            }}
+            className="image"
           />
         </Col>
         <Col className="col4 p-4 mt-4">
@@ -73,7 +69,7 @@ const Projects = () => {
           <button
             type="button"
             class="btn btn-success"
-            onClick={() => openInNewTab("https://google.com")}
+            onClick={() => openInNewTab("https://portfolio-navneet.herokuapp.com/")}
           >
             Website
           </button>
@@ -90,11 +86,7 @@ const Projects = () => {
         <Col className="p-4">
           <img
             src={require("../components/images/portfolio.png")}
-            style={{
-              width: "500px",
-              height: "300px",
-              border: "1px solid black",
-            }}
+            className="image"
           />
         </Col>
       </Row>
@@ -103,11 +95,7 @@ const Projects = () => {
         <Col className="p-4">
           <img
             src={require("../components/images/portfolio.png")}
-            style={{
-              width: "500px",
-              height: "300px",
-              border: "1px solid black",
-            }}
+            className="image"
           />
         </Col>
         <Col className="col4 p-4 mt-4">
@@ -169,11 +157,7 @@ const Projects = () => {
         <Col className="p-4">
           <img
             src={require("../components/images/loadTest.png")}
-            style={{
-              width: "500px",
-              height: "300px",
-              border: "1px solid black",
-            }}
+            className="image"
           />
         </Col>
       </Row>
@@ -182,11 +166,7 @@ const Projects = () => {
         <Col className="p-4">
           <img
             src={require("../components/images/portfolio.png")}
-            style={{
-              width: "500px",
-              height: "300px",
-              border: "1px solid black",
-            }}
+            className="image"
           />
         </Col>
         <Col className="col4 p-4 mt-4">
@@ -230,7 +210,7 @@ const Projects = () => {
           <button
             type="button"
             class="btn btn-success"
-            onClick={() => openInNewTab("https://google.com")}
+            onClick={() => openInNewTab("http://slideme.org/application/openweather")}
           >
             Website
           </button>
@@ -248,11 +228,9 @@ const Projects = () => {
           <img
             src={require("../components/images/weather.jpeg")}
             style={{
-              width: "400px",
-              height: "600px",
-              border: "1px solid black",
-            }}
-          />
+                width: "400px",
+                height: "600px",
+              }}            />
         </Col>
       </Row>
     </div>

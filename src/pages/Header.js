@@ -15,7 +15,7 @@ const Header = () => {
               <br />
               I'm Navneet
               <br />
-              Front-End Web Developer
+              Software Developer
               <br />
             </h1>
             <br />
