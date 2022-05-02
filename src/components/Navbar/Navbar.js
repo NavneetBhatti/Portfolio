@@ -1,24 +1,14 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { MenuList } from "./MenuList";
 import "./Navbar.css";
-// import Projects from "../pages/Projects";
-import { HashLink as Link } from 'react-router-hash-link'
-
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
   const menuList = MenuList.map(({ url, title }, index) => {
     return (
       <li key={index}>
-        {/* <NavLink exact to={url} activeClassName="active">
-          {title}
-        </NavLink> */}
-        <Link to={url}>
-            {title}
-
-        </Link>
-        
+        <Link to={url}>{title}</Link>
       </li>
     );
   });
@@ -29,9 +19,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="logo">
-        NK
-      </div>
+      <div className="logo">NK</div>
       <div className="menu-icon" onClick={handleClick}>
         <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
