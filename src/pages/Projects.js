@@ -77,7 +77,7 @@ const Projects = () => {
             type="button"
             class="btn btn-success m-3"
             onClick={() =>
-              openInNewTab("https://github.com/NavneetBhatti/Portfoliio")
+              openInNewTab("https://github.com/NavneetBhatti/Car_Rental_Service_")
             }
           >
             Source Code
