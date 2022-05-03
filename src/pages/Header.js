@@ -18,6 +18,7 @@ const Header = () => {
               Software Developer
               <br />
             </h1>
+
             <br />
             <Link to="#projects_section">
               <button type="button" class="btn btn-success btn-lg btnHeader">
@@ -26,7 +27,8 @@ const Header = () => {
             </Link>
           </Col>
           <Col sm={5}>
-            <img src={require("../components/images/me18.jpeg")} />
+            <img src={require("../components/images/m113w.png")} style={{width:"400px",height:"450px"}}/>
+
           </Col>
         </Row>
       </Container>
